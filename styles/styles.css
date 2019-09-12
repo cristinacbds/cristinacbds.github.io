@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url("resset.css");
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body { 
+    font-family: 'Nunito', sans-serif; 
+    margin-top: 2.75rem;
+    background-color: #dae3e7;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #434E5E;
+    max-height: 30vh;
+    padding: 10px;
+}
+
+.header-right {
+    align-items: center;
+    display: flex;
+    flex:2;
+    padding: 1.5rem;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 150px;
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.info {
+    color: white;
+}
+
+.name {
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-figure {
+    padding-right: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.content-body{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-right {
+    flex: 1;
+}
+
+.section-left {
+    flex: 3;
+    padding-right: 30px;
+}
+
+h3 {
+    color: #434E5E;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.text, .technologies {
+    color: gray;
+}
+
+.skill-list {
+    display: flex;
+    flex-direction: row; 
+}
+
+.skill-description {
+    color: white;
+    padding: 5px;
+}
+
+.skill-name{
+    background-color: #434E5E;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 10rem;
+    font-size: 15px;
+}
+
+.frontend, .backend, .others{
+    color: #434E5E;
+    font-weight: bold;
+} 
+
+.section-container {
+    padding-bottom: 20px;
+}
+
+.second-container {
+    background-color: white;
+    padding: 20px;
+}
+
+h5 {
+    color: #434E5E;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-bottom: 10px;
+    
+}
+
+.technologies {
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.project-description{
+    padding-bottom: 20px;
+}
+
+.duties {
+    list-style-type: circle;
+    list-style-position: inside;
+    color: gray;
+}
